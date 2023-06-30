@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Botones de redirección</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container.logo">
+<img id="logo" src="https://portales.inacap.cl/web_resources/themes/portal/img/logoFooter.png" alt="Logo">
+</div>
+<div class="container">
+  <h1>Me está llamando desde {{request.remote_addr}}</h1>
+</div>  
+<button onclick="window.location.href = 'http://192.0.2.1:1080/monitoreo';">Ir a Monitoreo</button>
+  <button onclick="window.location.href = 'http://192.0.2.1:1080/historial';">Ir a historial</button>
+</body>
+</html>

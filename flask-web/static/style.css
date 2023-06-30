@@ -1,0 +1,53 @@
+.container.logo {
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.container.logo img {
+  margin: 0;
+}
+
+.container {
+  border: 3px solid red;
+  padding: 5px;
+  background-color: white;
+
+}
+
+.container h1 {
+  margin: 0;
+}
+body {
+  background-color: red; 
+  background-image: url("https://portales.inacap.cl/Assets/sedes/temuco/header-temuco.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Ajusta el ancho según el tamaño del logo */
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
